@@ -4,6 +4,16 @@ html, body {
   font-family: sans-serif;
 }
 
+.axis path, .axis line {
+  fill:   none;
+  stroke: #eee;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 11px;
+}
+
 /* @TODO Update ch. 1 to remove axis stylings(?) and add font decs */
 
 text {
